@@ -23,6 +23,9 @@
 		DD789DD722319D530036CDA2 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD789DC822319D530036CDA2 /* String+Extensions.swift */; };
 		DD789DD822319D530036CDA2 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD789DC922319D530036CDA2 /* UIScrollView+Extensions.swift */; };
 		DD789DD922319D530036CDA2 /* NSAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD789DCA22319D530036CDA2 /* NSAttributedString+Extensions.swift */; };
+		DD837C3622686FD2007C0DC5 /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD837C3522686FD2007C0DC5 /* UINavigationController+Extensions.swift */; };
+		DD862E3422735D48003177F0 /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD862E3322735D48003177F0 /* Notification+Extensions.swift */; };
+		DD97874A226EFDB90078B7F8 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD978749226EFDB90078B7F8 /* DateFormatter+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		DD789DC822319D530036CDA2 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		DD789DC922319D530036CDA2 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
 		DD789DCA22319D530036CDA2 /* NSAttributedString+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		DD837C3522686FD2007C0DC5 /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
+		DD862E3322735D48003177F0 /* Notification+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extensions.swift"; sourceTree = "<group>"; };
+		DD978749226EFDB90078B7F8 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,9 @@
 				DD789DBE22319D520036CDA2 /* UIViewController+Extensions.swift */,
 				DD789DB422319D210036CDA2 /* JMXExtensions.h */,
 				DD789DB522319D210036CDA2 /* Info.plist */,
+				DD837C3522686FD2007C0DC5 /* UINavigationController+Extensions.swift */,
+				DD978749226EFDB90078B7F8 /* DateFormatter+Extensions.swift */,
+				DD862E3322735D48003177F0 /* Notification+Extensions.swift */,
 			);
 			path = JMXExtensions;
 			sourceTree = "<group>";
@@ -190,7 +199,10 @@
 				DD789DD222319D530036CDA2 /* UIImage+Extensions.swift in Sources */,
 				DD789DD422319D530036CDA2 /* Int+Extensions.swift in Sources */,
 				DD789DD922319D530036CDA2 /* NSAttributedString+Extensions.swift in Sources */,
+				DD837C3622686FD2007C0DC5 /* UINavigationController+Extensions.swift in Sources */,
 				DD789DD822319D530036CDA2 /* UIScrollView+Extensions.swift in Sources */,
+				DD862E3422735D48003177F0 /* Notification+Extensions.swift in Sources */,
+				DD97874A226EFDB90078B7F8 /* DateFormatter+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

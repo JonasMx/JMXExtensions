@@ -8,11 +8,12 @@
 
 import Foundation
 
+
 public extension Date {
     public func socialize() -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "E MMM dd, yyyy"
         
         return dateFormatter.string(from: self)        
-    }
+    }        
 }

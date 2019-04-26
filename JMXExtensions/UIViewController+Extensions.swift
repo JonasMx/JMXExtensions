@@ -47,5 +47,5 @@ public extension UIViewController {
             scrollView.setContentInsetAndScrollIndicatorInsets(contentInsets)
             block?()
         })
-    }
+    }        
 }

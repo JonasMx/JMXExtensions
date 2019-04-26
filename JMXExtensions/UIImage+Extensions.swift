@@ -14,6 +14,17 @@ public extension UIImage {
         self.init(data: imageData)
     }
     
+    func tint(with color: UIColor) -> UIImage {
+        var image = withRenderingMode(.alwaysTemplate)
+        UIGraphicsBeginImageContextWithOptions(size, false, scale)
+        color.set()
+        
+        image.draw(in: CGRect(origin: .zero, size: size))
+        image = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        return image
+    }
+    
     public class func imageWithColor(_ color: UIColor) -> UIImage {
         // Create a 1x1 colored rectangle
         let rect = CGRect(x: 0, y: 0, width: 1, height: 1)

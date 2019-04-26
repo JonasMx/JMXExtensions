@@ -15,6 +15,12 @@ public extension UISearchBar {
         }
     }
     
+    public var cancelButton:UIButton? {
+        get {
+            return self.value(forKey: "cancelButton") as? UIButton
+        }
+    }
+    
     public var clearButton:UIButton? {
         get {
             return self.searchField?.value(forKey: "_clearButton") as? UIButton
